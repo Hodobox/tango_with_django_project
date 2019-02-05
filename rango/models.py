@@ -25,3 +25,7 @@ class Page(models.Model):
 
     def __str__(self):
         return self.title
+
+    #def save(self, *args, **kwargs):
+    #    self.views = 0
+    #    super(Page,self).save(*args, **kwargs)
